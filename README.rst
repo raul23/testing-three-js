@@ -89,6 +89,8 @@ Anti-aliasing
     <p align="center">With anti-aliasing</p>
   </div>
 
+|
+
 .. raw:: html
 
   <div align="center">
