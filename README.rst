@@ -84,7 +84,7 @@ Anti-aliasing
 
   <p align="center">
     <a href="https://jsfiddle.net/raul23/uc6rbLg2/13/" target="_blank">
-      <img src="./images/anti-aliasing.png">
+      <img src="./images/anti-aliasing.png" width="384" height="287">
     </a>
   </p>
   <p align="center">With anti-aliasing</p>
