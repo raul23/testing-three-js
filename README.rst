@@ -11,6 +11,8 @@ Testing three.js
    
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
       
+   **NOTE:** add rest of ``<script>``'s attributes, i.e. ``integrity="sha512..."``
+      
 .. contents:: **Contents**
    :depth: 5
    :local:
