@@ -67,6 +67,8 @@ CSS
       height: 100%;
     }
 
+**Source:** `tutorialspoint.com <https://www.tutorialspoint.com/threejs/index.htm>`_
+
 Drawing lines
 =============
 .. raw:: html
