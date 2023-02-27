@@ -52,7 +52,7 @@ Add multiple cubes in a scene
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/pze9obf5/91/" target="_blank">
+    <a href="https://jsfiddle.net/raul23/pze9obf5/92/" target="_blank">
       <img src="./images/multiple_cubes.png">
     </a>
   </p>
@@ -60,7 +60,7 @@ Add multiple cubes in a scene
 `:information_source:` 
 
  - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/91/>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/92/>`_
  - NOTES:
  
    - They add a GUI to control the camera by controlling its z-position:
