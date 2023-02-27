@@ -33,7 +33,7 @@ Add multiple cubes in a scene
   
 `:information_source:` 
 
- - from `Drawing lines (threejs.org) <https://jsfiddle.net/raul23/pze9obf5/38/>`_
+ - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/38/>`_
 
 Cube with wireframe
