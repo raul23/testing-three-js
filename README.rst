@@ -35,6 +35,22 @@ Add multiple cubes in a scene
 
  - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/38/>`_
+ - NOTES:
+ 
+   - They add a GUI to control the camera by controlling its z-position:
+   
+     **HTML:**
+     
+     .. code-block:: html
+   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.js">
+   
+     **JavaScript:**
+     
+     .. code-block:: javascript
+     
+        const gui = new dat.GUI();
+        gui.add(camera.position, 'z', 10, 200, 1).name('camera-z')
 
 Cube with wireframe
 ===================
