@@ -95,8 +95,20 @@ Static
  - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
 
-Spinning
---------
+Spinning + responsiveness
+-------------------------
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/56keob9d/20/" target="_blank">
+      <img src="./images/spinning_wireframe_cube.png">
+    </a>
+  </p>
+
+`:information_source:` 
+
+ - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/20/>`_ (added comments from the tutorial)
 
 Solid cube spinning
 ===================
