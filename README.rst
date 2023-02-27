@@ -1,5 +1,5 @@
 ================
-Testing Three.js
+Testing three.js
 ================
 .. contents:: **Contents**
    :depth: 5
