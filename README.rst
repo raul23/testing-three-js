@@ -21,6 +21,32 @@ Drawing lines
  - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
 
+Add fog to a scene
+==================
+.. raw:: html
+
+  <p align="center">
+    <img src="./images/fog.png">
+  </p>
+
+`:information_source:` 
+
+ - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
+ - Example: black fog (``0x000000``) that increases linearly
+ 
+   .. code-block:: javascript
+
+      scene.fog = new THREE.Fog(0x000000, 0.015, 100)
+      
+   "You can use the preceding two properties to tune how the mist appears. The 0.015 value sets the near property, 
+    and the 100 value sets the far property. With these properties, you can determine where the fog starts and how 
+    fast it gets denser."
+- Example: black fog (``0x000000``) that increases exponentially with a mist's density of 0.01
+
+  .. code-block:: javascript
+  
+     scene.fog = new THREE.FogExp2(0x000000, 0.01)
+
 Add multiple cubes in a scene
 =============================
 .. raw:: html
