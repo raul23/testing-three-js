@@ -87,7 +87,25 @@ Anti-aliasing
       <img src="./images/anti-aliasing.png">
     </a>
   </p>
-  
+
+
+`:information_source:` 
+
+ - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/uc6rbLg2/10/>`_ (added comments from the tutorial)
+ - NOTES:
+ 
+   - "The aliasing effect is the appearance of jagged edges or "jaggies" (also known as stair-stepped lines) 
+     on edges and objects (rendered using pixels)."
+     
+     .. code-block:: javascript
+        
+        const renderer = new WebGLRenderer({ antialias: true })
+        renderer.physicallyCorrectLights = true
+
+     "The property ``physicallyCorrectLights`` tells Three.js whether to use physically correct lighting mode. 
+     Default is false. Setting it to true helps increase the detail of the object."
+
 Wireframe cube
 ==============
 Static
