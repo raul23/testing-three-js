@@ -38,9 +38,9 @@ Add fog to a scene
 
       scene.fog = new THREE.Fog(0x000000, 0.015, 100)
       
-    "You can use the preceding two properties to tune how the mist appears. The 0.015 value sets the near property, 
-    and the 100 value sets the far property. With these properties, you can determine where the fog starts and how 
-    fast it gets denser."
+   "You can use the preceding two properties to tune how the mist appears. The 0.015 value sets the near property, 
+   and the 100 value sets the far property. With these properties, you can determine where the fog starts and how 
+   fast it gets denser."
  - Example: black fog (``0x000000``) that increases exponentially with a mist's density of 0.01
 
    .. code-block:: javascript
