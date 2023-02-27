@@ -19,7 +19,7 @@ Drawing lines
 `:information_source:` 
 
  - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
 
 Cube with wireframe
 ===================
@@ -34,7 +34,7 @@ Cube with wireframe
 `:information_source:` 
 
  - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/>`_ (added comments from the tutorial)
 
 Spinning cube
 =============
@@ -49,4 +49,4 @@ Spinning cube
 `:information_source:` 
 
  - from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
