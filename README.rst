@@ -11,7 +11,7 @@ Drawing lines
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/54qtakvj" target="_blank">
+    <a href="https://jsfiddle.net/raul23/54qtakvj/30/" target="_blank">
       <img src="./images/drawing_lines.png">
     </a>
   </p>
@@ -19,7 +19,7 @@ Drawing lines
 `:information_source:` 
 
  - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_
 
 Spinning cube
 =============
