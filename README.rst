@@ -1,6 +1,16 @@
 ================
 Testing three.js
 ================
+`:information_source:`
+
+ - `three.js's cdn library files <https://cdnjs.com/libraries/three.js>`_
+
+   Example:
+
+   .. code-block:: html
+   
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
+      
 .. contents:: **Contents**
    :depth: 5
    :local:
