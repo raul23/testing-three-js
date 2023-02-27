@@ -100,7 +100,7 @@ Spinning + responsiveness
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/56keob9d/20/" target="_blank">
+    <a href="https://jsfiddle.net/raul23/56keob9d/34/" target="_blank">
       <img src="./images/spinning_wireframe_cube.png">
     </a>
   </p>
@@ -108,7 +108,27 @@ Spinning + responsiveness
 `:information_source:` 
 
  - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/20/>`_ (added comments from the tutorial)
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/34/>`_ (added comments from the tutorial)
+ - Responsiveness:
+ 
+   .. code-block:: javascript
+   
+      window.addEventListener('resize', () => {
+        // update display width and height
+        width = window.innerWidth
+        height = window.innerHeight
+        // update camera aspect
+        camera.aspect = width / height
+        camera.updateProjectionMatrix()
+        // update renderer
+        renderer.setSize(window.innerWidth, window.innerHeight)
+        // TODO: the following line was not there originally but it 
+        // was in their tutorial
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+        renderer.render(scene, camera)
+      })
+      
+   "Now, resize the browser. Due to the responsive design, the object will always reposition itself at the center of the browser." 
 
 Solid cube spinning
 ===================
