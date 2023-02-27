@@ -190,4 +190,7 @@ Solid cube spinning
 
 Using ``dat.GUI``
 =================
-TODO
+`:information_source:`
+
+ - ``dat.GUI``'s GitHub: `github.com/dataarts/dat.gui <https://github.com/dataarts/dat.gui>`_
+ - As of 2023-02-27: ``dat.GUI``'s version is 0.7.9 (Latest on Feb 18, 2022)
