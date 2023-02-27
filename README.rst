@@ -78,6 +78,16 @@ Add multiple cubes in a scene
         const gui = new dat.GUI();
         gui.add(camera.position, 'z', 10, 200, 1).name('camera-z')
 
+Anti-aliasing
+=============
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/uc6rbLg2/10/" target="_blank">
+      <img src="./images/anti-aliasing.png">
+    </a>
+  </p>
+  
 Wireframe cube
 ==============
 Static
