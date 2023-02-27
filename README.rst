@@ -26,7 +26,7 @@ Cube with wireframe
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/Lywna1pj/" target="_blank">
+    <a href="https://jsfiddle.net/raul23/Lywna1pj/55/" target="_blank">
       <img src="./images/hello_cube_app.png">
     </a>
   </p>
@@ -34,7 +34,7 @@ Cube with wireframe
 `:information_source:` 
 
  - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/>`_ (added comments from the tutorial)
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
 
 Spinning cube (solid)
 =====================
