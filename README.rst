@@ -187,3 +187,7 @@ Solid cube spinning
 
  - from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
+
+Using Dat.GUI
+=============
+TODO
