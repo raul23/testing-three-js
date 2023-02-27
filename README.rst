@@ -83,7 +83,7 @@ Anti-aliasing
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/uc6rbLg2/10/" target="_blank">
+    <a href="https://jsfiddle.net/raul23/uc6rbLg2/13/" target="_blank">
       <img src="./images/anti-aliasing.png">
     </a>
   </p>
@@ -92,7 +92,7 @@ Anti-aliasing
 `:information_source:` 
 
  - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/uc6rbLg2/10/>`_ (added comments from the tutorial)
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/uc6rbLg2/13/>`_ (added comments from the tutorial)
  - NOTES:
  
    - "The aliasing effect is the appearance of jagged edges or "jaggies" (also known as stair-stepped lines) 
