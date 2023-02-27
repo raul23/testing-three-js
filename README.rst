@@ -23,6 +23,14 @@ Drawing lines
 
 Hello Cube App
 ==============
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/Lywna1pj/" target="_blank">
+      <img src="./images/hello_cube_app.png">
+    </a>
+  </p>
+
 `:information_source:` 
 
  - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
