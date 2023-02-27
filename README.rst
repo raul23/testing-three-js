@@ -79,6 +79,8 @@ Add multiple cubes in a scene
         gui.add(camera.position, 'z', 10, 200, 1).name('camera-z')
         
      `dat.GUI's GitHub <https://github.com/dataarts/dat.gui>`_: "A lightweight graphical user interface for changing variables in JavaScript."
+     
+     As of 2023-02-27: dat.GUI's version is 0.7.9 (Latest on Feb 18, 2022)
 
 Anti-aliasing
 =============
