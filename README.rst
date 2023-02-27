@@ -21,6 +21,21 @@ Drawing lines
  - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
 
+Add multiple cubes in a scene
+=============================
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/54qtakvj/30/" target="_blank">
+      <img src="./images/multiple_cubes.png">
+    </a>
+  </p>
+  
+`:information_source:` 
+
+ - from `Drawing lines (threejs.org) <https://jsfiddle.net/raul23/pze9obf5/38/>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/38/>`_ (added comments from the tutorial)
+
 Cube with wireframe
 ===================
 .. raw:: html
