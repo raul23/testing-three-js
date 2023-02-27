@@ -11,7 +11,9 @@ Spinning cube
 .. raw:: html
 
   <p align="center">
-    <img src="./images/spinning_cube.png">
+    <a href="https://jsfiddle.net/raul23/0zwtbd12">
+      <img src="./images/spinning_cube.png">
+    </a>
   </p>
   
 `:information_source:` from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
