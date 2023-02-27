@@ -21,8 +21,8 @@ Drawing lines
  - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_
 
-Hello Cube App
-==============
+Cube with wireframe
+===================
 .. raw:: html
 
   <p align="center">
