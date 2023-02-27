@@ -18,6 +18,55 @@ Testing three.js
    :local:
    :backlinks: top
 
+Boilerplates files
+==================
+HTML
+----
+.. code-block:: html
+
+   <!DOCTYPE html>
+   <html>
+      <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         <meta charset="UTF-8" />
+         <title>Three.js</title>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+      </head>
+      <body>
+         <!-- The threejs-container takes up the whole screen. -->
+         <div id="threejs-container">
+            <!-- Our output to be rendered here -->
+         </div>
+      </body>
+   </html>
+
+**Source:** `tutorialspoint.com <https://www.tutorialspoint.com/threejs/index.htm>`_
+
+CSS
+---
+.. code-block:: css
+
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -applesystem, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    html, body {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #threejs-container {
+      position: block;
+      width: 100%;
+      height: 100%;
+    }
+
 Drawing lines
 =============
 .. raw:: html
