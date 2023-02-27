@@ -78,8 +78,8 @@ Add multiple cubes in a scene
         const gui = new dat.GUI();
         gui.add(camera.position, 'z', 10, 200, 1).name('camera-z')
 
-Cube with wireframe
-===================
+Cube with wireframe (static)
+============================
 .. raw:: html
 
   <p align="center">
@@ -92,6 +92,9 @@ Cube with wireframe
 
  - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
+
+Cube with wireframe (spinning)
+==============================
 
 Spinning cube (solid)
 =====================
