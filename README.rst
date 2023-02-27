@@ -18,8 +18,8 @@ Testing three.js
    :local:
    :backlinks: top
 
-Boilerplates files
-==================
+Boilerplate files
+=================
 HTML
 ----
 .. code-block:: html
