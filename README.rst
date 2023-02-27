@@ -87,7 +87,16 @@ Anti-aliasing
       <img src="./images/anti-aliasing.png">
     </a>
   </p>
+  <p align="center">With anti-aliasing</p>
 
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/uc6rbLg2/13/" target="_blank">
+      <img src="./images/spinning_wireframe_cube.png">
+    </a>
+  </p>
+  <p align="center">Without anti-aliasing</p>
 
 `:information_source:` 
 
