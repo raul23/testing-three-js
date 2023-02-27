@@ -16,6 +16,7 @@ Spinning cube
     </a>
   </p>
   
-`:information_source:` from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
+`:information_source:` 
 
-- **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12>`_
+ - from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12>`_
