@@ -78,8 +78,8 @@ Add multiple cubes in a scene
         const gui = new dat.GUI();
         gui.add(camera.position, 'z', 10, 200, 1).name('camera-z')
 
-Wireframe cube with
-===================
+Wireframe cube
+==============
 Static
 -------
 .. raw:: html
