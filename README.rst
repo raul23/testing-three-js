@@ -11,7 +11,7 @@ Spinning cube
 .. raw:: html
 
   <p align="center">
-    <a href="https://jsfiddle.net/raul23/0zwtbd12">
+    <a target="_blank" href="https://jsfiddle.net/raul23/0zwtbd12">
       <img src="./images/spinning_cube.png">
     </a>
   </p>
