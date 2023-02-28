@@ -441,3 +441,6 @@ Using ``dat.GUI`` to change a cube's coordinates
          // callback
          cube.color.set(cubeColor.color)
       })
+
+``stats.js``
+============
