@@ -453,6 +453,15 @@ Using ``dat.GUI`` to change a cube's coordinates
    .. code-block:: html
  
       <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
+      
+   `:warning:` 
+   
+    - When I try r17, I ``"Script error."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
+    - No problem with r16 though or from http://mrdoob.github.io:
+    
+      .. code-block:: html
+    
+         <script src="http://mrdoob.github.io/stats.js/build/stats.min.js"></script>
  - From their `GitHub <https://github.com/mrdoob/stats.js/>`_:
  
    This class provides a simple info box that will help you monitor your code performance.
