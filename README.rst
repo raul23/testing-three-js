@@ -442,8 +442,8 @@ Using ``dat.GUI`` to change a cube's coordinates
          cube.color.set(cubeColor.color)
       })
 
-``stats.js``
-============
+``stats.js``: JavaScript Performance Monitor
+============================================
 `:information_source:`
 
  - GitHub @ https://github.com/mrdoob/stats.js/
@@ -453,4 +453,11 @@ Using ``dat.GUI`` to change a cube's coordinates
    .. code-block:: html
  
       <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
+ - From their `GitHub <https://github.com/mrdoob/stats.js/>`_:
+ 
+   This class provides a simple info box that will help you monitor your code performance.
 
+   - **FPS** Frames rendered in the last second. The higher the number the better.
+   - **MS** Milliseconds needed to render a frame. The lower the number the better.
+   - **MB** MBytes of allocated memory. (Run Chrome with --enable-precise-memory-info)
+   - **CUSTOM** User-defined panel support.
