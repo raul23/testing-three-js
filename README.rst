@@ -475,6 +475,14 @@ Using ``dat.GUI`` to change a cube's coordinates
 
 Usage
 -----
+.. raw:: html
+
+   <p align="center">
+    <a href="https://jsfiddle.net/raul23/zrLng97f/70/" target="_blank">
+      <img src="./images/stats_js.png">
+    </a>
+   </p>
+
 .. code-block:: javascript
 
    var stats = new Stats();
