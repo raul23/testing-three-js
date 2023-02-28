@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 // UI
 const gui = new dat.GUI()
 // sizes
