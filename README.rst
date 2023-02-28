@@ -133,8 +133,10 @@ JavaScript (wireframe cube with GUI)
 
 **Source:** `tutorialspoint.com <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
 
+Drawing geometric shapes
+========================
 Drawing lines
-=============
+-------------
 .. raw:: html
 
   <p align="center">
@@ -148,34 +150,77 @@ Drawing lines
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
  - Code from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
 
-Add fog to a scene
-==================
+Drawing cubes
+-------------
+Wireframe cube
+""""""""""""""
+Static
+''''''
 .. raw:: html
 
   <p align="center">
-    <img src="./images/fog.png">
+    <a href="https://jsfiddle.net/raul23/Lywna1pj/55/" target="_blank">
+      <img src="./images/hello_cube_app.png">
+    </a>
   </p>
 
 `:information_source:` 
 
- - From `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
- - Example: black fog (``0x000000``) that increases linearly
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
+ - Code from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
+
+Spinning + responsiveness
+'''''''''''''''''''''''''
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/56keob9d/34/" target="_blank">
+      <img src="./images/spinning_wireframe_cube.png">
+    </a>
+  </p>
+
+`:information_source:` 
+
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/34/>`_ (added comments from the tutorial)
+ - Code from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
+ - **Responsiveness:**
  
    .. code-block:: javascript
-
-      scene.fog = new THREE.Fog(0x000000, 0.015, 100)
+   
+      window.addEventListener('resize', () => {
+        // update display width and height
+        width = window.innerWidth
+        height = window.innerHeight
+        // update camera aspect
+        camera.aspect = width / height
+        camera.updateProjectionMatrix()
+        // update renderer
+        renderer.setSize(window.innerWidth, window.innerHeight)
+        // TODO: the following line was not there originally but it 
+        // was in their tutorial
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+        renderer.render(scene, camera)
+      })
       
-   "You can use the preceding two properties to tune how the mist appears. The 0.015 value sets the near property, 
-   and the 100 value sets the far property. With these properties, you can determine where the fog starts and how 
-   fast it gets denser."
- - Example: black fog (``0x000000``) that increases exponentially with a mist's density of 0.01
+   "Now, resize the browser. Due to the responsive design, the object will always reposition itself at the center of the browser." 
 
-   .. code-block:: javascript
+Solid cube spinning
+"""""""""""""""""""
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/0zwtbd12/8" target="_blank">
+      <img src="./images/spinning_cube.png">
+    </a>
+  </p>
   
-      scene.fog = new THREE.FogExp2(0x000000, 0.01)
+`:information_source:` 
+
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
+ - Code from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
 
 Add multiple cubes in a scene
-=============================
+"""""""""""""""""""""""""""""
 .. raw:: html
 
   <p align="center">
@@ -210,8 +255,36 @@ Add multiple cubes in a scene
      
      As of 2023-02-27: dat.GUI's version is 0.7.9 (Latest on Feb 18, 2022)
 
+Special effects
+===============
+Add fog to a scene
+------------------
+.. raw:: html
+
+  <p align="center">
+    <img src="./images/fog.png">
+  </p>
+
+`:information_source:` 
+
+ - From `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
+ - Example: black fog (``0x000000``) that increases linearly
+ 
+   .. code-block:: javascript
+
+      scene.fog = new THREE.Fog(0x000000, 0.015, 100)
+      
+   "You can use the preceding two properties to tune how the mist appears. The 0.015 value sets the near property, 
+   and the 100 value sets the far property. With these properties, you can determine where the fog starts and how 
+   fast it gets denser."
+ - Example: black fog (``0x000000``) that increases exponentially with a mist's density of 0.01
+
+   .. code-block:: javascript
+  
+      scene.fog = new THREE.FogExp2(0x000000, 0.01)
+
 Anti-aliasing
-=============
+-------------
 .. raw:: html
 
   <div align="center">
@@ -249,75 +322,10 @@ Anti-aliasing
      "The property ``physicallyCorrectLights`` tells Three.js whether to use physically correct lighting mode. 
      Default is false. Setting it to true helps increase the detail of the object."
 
-Wireframe cube
-==============
-Static
--------
-.. raw:: html
-
-  <p align="center">
-    <a href="https://jsfiddle.net/raul23/Lywna1pj/55/" target="_blank">
-      <img src="./images/hello_cube_app.png">
-    </a>
-  </p>
-
-`:information_source:` 
-
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
- - Code from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
-
-Spinning + responsiveness
--------------------------
-.. raw:: html
-
-  <p align="center">
-    <a href="https://jsfiddle.net/raul23/56keob9d/34/" target="_blank">
-      <img src="./images/spinning_wireframe_cube.png">
-    </a>
-  </p>
-
-`:information_source:` 
-
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/34/>`_ (added comments from the tutorial)
- - Code from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
- - **Responsiveness:**
- 
-   .. code-block:: javascript
-   
-      window.addEventListener('resize', () => {
-        // update display width and height
-        width = window.innerWidth
-        height = window.innerHeight
-        // update camera aspect
-        camera.aspect = width / height
-        camera.updateProjectionMatrix()
-        // update renderer
-        renderer.setSize(window.innerWidth, window.innerHeight)
-        // TODO: the following line was not there originally but it 
-        // was in their tutorial
-        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-        renderer.render(scene, camera)
-      })
-      
-   "Now, resize the browser. Due to the responsive design, the object will always reposition itself at the center of the browser." 
-
-Solid cube spinning
-===================
-.. raw:: html
-
-  <p align="center">
-    <a href="https://jsfiddle.net/raul23/0zwtbd12/8" target="_blank">
-      <img src="./images/spinning_cube.png">
-    </a>
-  </p>
-  
-`:information_source:` 
-
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
- - Code from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
-
+``dat.GUI``
+===========
 Using ``dat.GUI`` to change a cube's coordinates
-================================================
+------------------------------------------------
 .. raw:: html
 
   <p align="center">
@@ -373,5 +381,5 @@ Using ``dat.GUI`` to change a cube's coordinates
         gui.add(cube.position, 'z').min(-10).max(10).step(0.1)
         
 ``dat.GUI`` folders
-===================
+-------------------
 TODO
