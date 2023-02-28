@@ -19,7 +19,7 @@ As it is recommended in the warning message, use ES Modules (see official `doc
 
 |
 
-`:information_source:` `three.js CDN library files <https://cdnjs.com/libraries/three.js>`_
+Check ``three.js`` `CDN library files <https://cdnjs.com/libraries/three.js>`_.
 
 **Example:**
 
