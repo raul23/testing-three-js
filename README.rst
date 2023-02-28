@@ -81,7 +81,7 @@ JavaScript (wireframe cube with GUI)
 
    // scene
    const scene = new THREE.Scene()
-   scene.background = new THREE.Color(0x262626)
+   scene.background = new THREE.Color(0x000000)
 
    // camera
    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)
@@ -321,3 +321,4 @@ Using ``dat.GUI``
 
  - ``dat.GUI``'s GitHub: `github.com/dataarts/dat.gui <https://github.com/dataarts/dat.gui>`_
  - As of 2023-02-27: ``dat.GUI``'s version is 0.7.9 (Latest on Feb 18, 2022)
+
