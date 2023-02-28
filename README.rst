@@ -457,11 +457,13 @@ Using ``dat.GUI`` to change a cube's coordinates
    `:warning:` 
    
     - When I try r17, I get ``"Script error."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
-    - No problem with r16 though or from http://mrdoob.github.io:
+    - When I try r16 and lower versions, I get ``"Uncaught TypeError: Failed to execute 'appendChild' on 'Node': 
+      parameter 1 is not of type 'Node'."`` on on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
+    - **SOLUTION:** Use ``stats.min`` from https://mrdoob.github.io/stats.js/build/stats.min.js
     
       .. code-block:: html
     
-         <script src="http://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+         <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
  - From their `GitHub <https://github.com/mrdoob/stats.js/>`_:
  
    This class provides a simple info box that will help you monitor your code performance.
