@@ -444,3 +444,13 @@ Using ``dat.GUI`` to change a cube's coordinates
 
 ``stats.js``
 ============
+`:information_source:`
+
+ - GitHub @ https://github.com/mrdoob/stats.js/
+ - As of 2023-02-27, its latest version is **r17** (Latest on Oct 28, 2016)
+ - CDN link:
+ 
+   .. code-block:: html
+ 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
+
