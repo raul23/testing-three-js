@@ -372,3 +372,6 @@ Using ``dat.GUI``
         gui.add(cube.position, 'y').min(-10).max(10).step(0.1)
         gui.add(cube.position, 'z').min(-10).max(10).step(0.1)
         
+``dat.GUI`` folders
+===================
+TODO
