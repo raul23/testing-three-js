@@ -166,6 +166,19 @@ Cameras
 =======
 PerspectiveCamera
 -----------------
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/udmk5nwc/106/" target="_blank">
+      <img src="./images/PerspectiveCamera.png">
+    </a>
+  </p>
+
+`:information_source:` 
+
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/udmk5nwc/106/>`_
+ - Code from `Three.js - PerspectiveCamera (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_perspectivecamera.htm>`_
+
 OrthographicCamera
 ------------------
 
