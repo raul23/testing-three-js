@@ -391,3 +391,26 @@ Using ``dat.GUI`` to change a cube's coordinates
     </a>
   </p>
   
+`:information_source:` about the JavaScript code
+
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
+ - Code from `Three.js - Debug & Stats (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
+ - **NOTES:**
+ 
+   - "If there are many variables with the same name, you may find it difficult to differentiate among them. 
+     In that case, you can add folders for every object. All the variables related to an object be in one folder."
+     
+     .. code-block:: javascript
+     
+        // creating a folder
+        const cube1 = gui.addFolder('Cube 1')
+        cube1.add(redCube.position, 'y').min(1).max(10).step(1)
+        cube1.add(redCube.position, 'x').min(1).max(10).step(1)
+        cube1.add(redCube.position, 'z').min(1).max(10).step(1)
+        // another folder
+        const cube2 = gui.addFolder('Cube 2')
+        cube2.add(greenCube.position, 'y').min(1).max(10).step(1)
+        cube2.add(greenCube.position, 'x').min(1).max(10).step(1)
+        cube2.add(greenCube.position, 'z').min(1).max(10).step(1)
+ 
+ 
