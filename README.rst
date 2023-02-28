@@ -457,7 +457,7 @@ Using ``dat.GUI`` to change a cube's coordinates
  
    This class provides a simple info box that will help you monitor your code performance.
 
-   - **FPS** Frames rendered in the last second. The higher the number the better.
-   - **MS** Milliseconds needed to render a frame. The lower the number the better.
-   - **MB** MBytes of allocated memory. (Run Chrome with --enable-precise-memory-info)
-   - **CUSTOM** User-defined panel support.
+   - **FPS** [0] Frames rendered in the last second. The higher the number the better.
+   - **MS** [1] Milliseconds needed to render a frame. The lower the number the better.
+   - **MB** [2] MBytes of allocated memory. (Run Chrome with --enable-precise-memory-info)
+   - **CUSTOM** [3] User-defined panel support.
