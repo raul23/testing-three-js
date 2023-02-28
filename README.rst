@@ -10,9 +10,9 @@ Testing three.js
 ==================================
 `:warning:` When linking ``three.js`` from a the CDN @ cdnjs.cloudflare.com, I get the following warning message::
 
- "Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and 
+ Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and 
  will be removed with r160. Please use ES Modules or alternatives: 
- https://threejs.org/docs/index.html#manual/en/introduction/Installation"
+ https://threejs.org/docs/index.html#manual/en/introduction/Installation
 
 As it is recommended in the warning message, use ES Modules.
 
