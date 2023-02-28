@@ -14,7 +14,8 @@ Testing three.js
  will be removed with r160. Please use ES Modules or alternatives: 
  https://threejs.org/docs/index.html#manual/en/introduction/Installation
 
-As it is recommended in the warning message, use ES Modules.
+As it is recommended in the warning message, use ES Modules (see official `doc
+<https://threejs.org/docs/index.html#manual/en/introduction/Installation>`_).
 
 |
 
