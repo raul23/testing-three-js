@@ -448,7 +448,7 @@ Using ``dat.GUI`` to change a cube's coordinates
 
  - GitHub @ https://github.com/mrdoob/stats.js/
  - As of 2023-02-27, its latest version is **r17** (Latest on Oct 28, 2016)
- - CDN link:
+ - **CDN link:**
  
    .. code-block:: html
  
