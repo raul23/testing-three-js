@@ -412,32 +412,3 @@ Using ``dat.GUI`` to change a cube's coordinates
         cube2.add(greenCube.position, 'y').min(1).max(10).step(1)
         cube2.add(greenCube.position, 'x').min(1).max(10).step(1)
         cube2.add(greenCube.position, 'z').min(1).max(10).step(1)
- 
- ``onChange`` callback: e.g. changing a cube's color through the GUI
- -------------------------------------------------------------------
- .. raw:: html
-
-  <p align="center">
-    <a href="https://jsfiddle.net/raul23/7q9kwob2/27/" target="_blank">
-      <img src="./images/dat_gui_folders.png">
-    </a>
-  </p>
-  
-`:information_source:` about the JavaScript code
-
- - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
- - Code from `Three.js - Debug & Stats (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
- - **NOTES:**
- 
-   "The callback ``onChange`` notifies three.js to change the cube color when the color from ``cubeColor`` changes."
-   
-   .. code-block:: javascript
-   
-      // parameter
-      const cubeColor = {
-         color: 0xff0000,
-      }
-      gui.addColor(cubeColor, 'color').onChange(() => {
-         // callback
-         cube.color.set(cubeColor.color)
-      })
