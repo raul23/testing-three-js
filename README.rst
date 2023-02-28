@@ -383,4 +383,11 @@ Using ``dat.GUI`` to change a cube's coordinates
         
 ``dat.GUI`` folders
 -------------------
-TODO
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/7q9kwob2/27/" target="_blank">
+      <img src="./images/dat_gui_folders.png">
+    </a>
+  </p>
+  
