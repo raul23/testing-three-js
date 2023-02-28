@@ -460,4 +460,4 @@ Using ``dat.GUI`` to change a cube's coordinates
    - **FPS** [0] Frames rendered in the last second. The higher the number the better.
    - **MS** [1] Milliseconds needed to render a frame. The lower the number the better.
    - **MB** [2] MBytes of allocated memory. (Run Chrome with --enable-precise-memory-info)
-   - **CUSTOM** [3] User-defined panel support.
+   - **CUSTOM** [3+] User-defined panel support.
