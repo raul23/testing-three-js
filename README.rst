@@ -456,7 +456,7 @@ Using ``dat.GUI`` to change a cube's coordinates
       
    `:warning:` 
    
-    - When I try r17, I ``"Script error."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
+    - When I try r17, I get ``"Script error."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
     - No problem with r16 though or from http://mrdoob.github.io:
     
       .. code-block:: html
