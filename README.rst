@@ -134,6 +134,13 @@ JavaScript (wireframe cube with GUI)
 
 **Source:** `tutorialspoint.com <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
 
+Cameras
+=======
+PerspectiveCamera
+-----------------
+OrthographicCamera
+------------------
+
 Drawing geometric shapes
 ========================
 Drawing lines
