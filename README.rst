@@ -145,7 +145,7 @@ Drawing lines
   
 `:information_source:` 
 
- - from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
+ - Code from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
 
 Add fog to a scene
@@ -158,7 +158,7 @@ Add fog to a scene
 
 `:information_source:` 
 
- - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
+ - Code from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
  - Example: black fog (``0x000000``) that increases linearly
  
    .. code-block:: javascript
@@ -186,9 +186,9 @@ Add multiple cubes in a scene
   
 `:information_source:` 
 
- - from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
+ - Code from `Three.js - Renderer & Responsiveness (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_renderer_and_responsiveness.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pze9obf5/92/>`_
- - NOTES:
+ - **NOTES:**
  
    - They add a GUI to control the camera by controlling its z-position:
    
@@ -233,9 +233,9 @@ Anti-aliasing
 
 `:information_source:` 
 
- - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
+ - Code from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/uc6rbLg2/13/>`_ (added comments from the tutorial)
- - NOTES:
+ - **NOTES:**
  
    - "The aliasing effect is the appearance of jagged edges or "jaggies" (also known as stair-stepped lines) 
      on edges and objects (rendered using pixels)."
@@ -262,7 +262,7 @@ Static
 
 `:information_source:` 
 
- - from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
+ - Code from `Three.js - Hello Cube App (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_hello_cube_app.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/Lywna1pj/55/>`_ (added comments from the tutorial)
 
 Spinning + responsiveness
@@ -277,9 +277,9 @@ Spinning + responsiveness
 
 `:information_source:` 
 
- - from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
+ - Code from `Three.js - Responsive Design (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_responsive_design.htm>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/56keob9d/34/>`_ (added comments from the tutorial)
- - Responsiveness:
+ - **Responsiveness:**
  
    .. code-block:: javascript
    
@@ -312,13 +312,57 @@ Solid cube spinning
   
 `:information_source:` 
 
- - from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
+ - Code from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
 
 Using ``dat.GUI``
 =================
+.. raw:: html
+
+  <p align="center">
+    <a href="https://jsfiddle.net/raul23/pqux2cka/24/" target="_blank">
+      <img src="./images/dat_gui.png">
+    </a>
+  </p>
+
 `:information_source:`
 
  - ``dat.GUI``'s GitHub: `github.com/dataarts/dat.gui <https://github.com/dataarts/dat.gui>`_
  - As of 2023-02-27: ``dat.GUI``'s version is 0.7.9 (Latest on Feb 18, 2022)
-
+ - Code from `Three.js - Debug & Stats (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
+ - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/pqux2cka/24/>`_
+ - **NOTES:**
+ 
+   - A GUI is added to move the cube by modifying its x, y, and z positions:
+   
+     **HTML:**
+     
+     .. code-block:: html
+   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js">
+   
+     **JavaScript:**
+     
+     .. code-block:: javascript
+     
+        const gui = new dat.GUI();
+        gui.add(material, 'wireframe')
+        const cube = new THREE.Mesh(geometry, material)
+        scene.add(cube)
+        gui.add(cube.position, 'x')
+        gui.add(cube.position, 'y')
+        ui.add(cube.position, 'z')
+        
+     `dat.GUI's GitHub <https://github.com/dataarts/dat.gui>`_: "A lightweight graphical user interface for changing variables in JavaScript."
+     
+     As of 2023-02-27: dat.GUI's version is 0.7.9 (Latest on Feb 18, 2022) 
+     
+   - A slider (min, max, and and step values) can also be used to change the cube's coordinates:
+   
+     .. code-block:: javascript
+        
+        // With slider
+        gui.add(cube.position, 'x').min(-10).max(10).step(0.1)
+        gui.add(cube.position, 'y').min(-10).max(10).step(0.1)
+        gui.add(cube.position, 'z').min(-10).max(10).step(0.1)
+        
