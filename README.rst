@@ -423,7 +423,7 @@ Using ``dat.GUI`` to change a cube's coordinates
     </a>
    </p>
   
-`:information_source:` about the JavaScript code
+`:information_source:` 
 
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
  - Code from `Three.js - Debug & Stats (tutorialspoint.com) <https://www.tutorialspoint.com/threejs/threejs_debug_and_stats.htm>`_
