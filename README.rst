@@ -363,7 +363,7 @@ Using ``dat.GUI``
      
      As of 2023-02-27: dat.GUI's version is 0.7.9 (Latest on Feb 18, 2022) 
      
-   - A slider (min, max, and and step values) can also be used to change the cube's coordinates:
+   - A slider (min, max, and step values) can also be used to change the cube's coordinates:
    
      .. code-block:: javascript
         
