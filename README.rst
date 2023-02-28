@@ -8,6 +8,15 @@ Testing three.js
 
 ``three.js`` **CDN** library files
 ==================================
+`:warning:` When linking ``three.js`` from a the CDN @ cdnjs.cloudflare.com, I get the following warning message::
+
+ "Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and 
+ will be removed with r160. Please use ES Modules or alternatives: 
+ https://threejs.org/docs/index.html#manual/en/introduction/Installation"
+
+As it is recommended in the warning message, use ES Modules.
+
+|
 
 `:information_source:` `three.js CDN library files <https://cdnjs.com/libraries/three.js>`_
 
@@ -32,7 +41,6 @@ HTML
          <meta http-equiv="X-UA-Compatible" content="ie=edge" />
          <meta charset="UTF-8" />
          <title>Three.js</title>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
       </head>
       <body>
@@ -40,6 +48,15 @@ HTML
          <div id="threejs-container">
             <!-- Our output to be rendered here -->
          </div>
+         <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+         <script type="importmap">
+           {
+             "imports": {
+               "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+               "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
+             }
+           }
+         </script>
       </body>
    </html>
 
