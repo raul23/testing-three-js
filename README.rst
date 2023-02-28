@@ -458,7 +458,7 @@ Using ``dat.GUI`` to change a cube's coordinates
    
     - When I try r17, I get ``"Script error."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
     - When I try r16 and lower versions, I get ``"Uncaught TypeError: Failed to execute 'appendChild' on 'Node': 
-      parameter 1 is not of type 'Node'."`` on on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
+      parameter 1 is not of type 'Node'."`` on `jsfiddle.net <https://jsfiddle.net/raul23/7q9kwob2/27/>`_
     - **SOLUTION:** Use ``stats.min`` from https://mrdoob.github.io/stats.js/build/stats.min.js
     
       .. code-block:: html
