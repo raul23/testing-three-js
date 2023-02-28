@@ -70,7 +70,7 @@ CSS
 **Source:** `tutorialspoint.com <https://www.tutorialspoint.com/threejs/index.htm>`_
 
 JavaScript (wireframe cube with GUI)
-====================================
+------------------------------------
 .. code-block:: javascript
 
    // UI
