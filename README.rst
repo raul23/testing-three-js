@@ -91,6 +91,8 @@ JavaScript (wireframe cube with GUI)
 ------------------------------------
 .. code-block:: javascript
 
+   import * as THREE from 'three';
+   
    // UI
    const gui = new dat.GUI()
    // sizes
