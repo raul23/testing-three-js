@@ -488,7 +488,7 @@ Usage
 |
 
 "If you are using animations, you should update the stats whenever the frame is rendered." (from `tutorialspoint.com
-<https://www.tutorialspoint.com/threejs/threejs_stats.htm>`_:
+<https://www.tutorialspoint.com/threejs/threejs_stats.htm>`_):
 
 .. code-block:: javascript
 
