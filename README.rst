@@ -68,9 +68,8 @@ HTML
  ``three.module.js`` is the ESM build file whereas ``three.js`` is UMD. If you want to use ES6 import syntax in your app, 
  you have to use the ESM version.
  
- Universal Module Definition = UMD
- 
- From `stackoverflow.com <https://stackoverflow.com/a/71644009>`_
+- Universal Module Definition = UMD
+- Explanation from `stackoverflow.com <https://stackoverflow.com/a/71644009>`_
 
 CSS
 ---
