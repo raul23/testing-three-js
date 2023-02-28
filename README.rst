@@ -316,8 +316,8 @@ Solid cube spinning
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/0zwtbd12/8>`_ (added comments from the tutorial)
  - Code from `Creating a scene (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene>`_
 
-Using ``dat.GUI``
-=================
+Using ``dat.GUI`` to change a cube's coordinates
+================================================
 .. raw:: html
 
   <p align="center">
