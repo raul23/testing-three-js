@@ -1,22 +1,23 @@
 ================
 Testing three.js
-================
-`:information_source:`
-
- - `three.js's cdn library files <https://cdnjs.com/libraries/three.js>`_
-
-   Example:
-
-   .. code-block:: html
-   
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
-      
-   **NOTE:** add rest of ``<script>``'s attributes, i.e. ``integrity="sha512..."``
-      
+================      
 .. contents:: **Contents**
    :depth: 5
    :local:
    :backlinks: top
+
+``three.js`` **CDN** library files
+==================================
+
+`:information_source:` `three.js CDN library files <https://cdnjs.com/libraries/three.js>`_
+
+**Example:**
+
+.. code-block:: html
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.min.js"></script>
+
+**NOTE:** add the rest of ``<script>``'s attributes, i.e. ``integrity="sha512..."``
 
 Boilerplate files
 =================
