@@ -6,7 +6,7 @@ let height = window.innerHeight
 
 // scene
 const scene = new THREE.Scene()
-scene.background = new THREE.Color(0x262626)
+scene.background = new THREE.Color(0x000000)
 
 // camera
 const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)
