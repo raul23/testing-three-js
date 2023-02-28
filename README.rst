@@ -461,3 +461,40 @@ Using ``dat.GUI`` to change a cube's coordinates
    - **MS** [1] Milliseconds needed to render a frame. The lower the number the better.
    - **MB** [2] MBytes of allocated memory. (Run Chrome with --enable-precise-memory-info)
    - **CUSTOM** [3+] User-defined panel support.
+
+Usage
+-----
+.. code-block:: javascript
+
+   var stats = new Stats();
+   stats.showPanel( 1 ); // 0: fps, 1: ms, 2: mb, 3+: custom
+   document.body.appendChild( stats.dom );
+
+   function animate() {
+
+      stats.begin();
+
+      // monitored code goes here, e.g. the render function
+      // renderer.render(scene, camera)
+
+      stats.end();
+
+      requestAnimationFrame( animate );
+
+   }
+
+   requestAnimationFrame( animate );
+
+|
+
+"If you are using animations, you should update the stats whenever the frame is rendered." (from `tutorialspoint.com
+<https://www.tutorialspoint.com/threejs/threejs_stats.htm>`_:
+
+.. code-block:: javascript
+
+   function animate() {
+      requestAnimationFrame(render)
+      // our animations
+      renderer.render(scene, camera)
+      stats.update()
+   }
