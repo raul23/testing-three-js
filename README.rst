@@ -398,7 +398,7 @@ Using ``dat.GUI`` to change a cube's coordinates
  - **NOTES:**
  
    - "If there are many variables with the same name, you may find it difficult to differentiate among them. 
-     In that case, you can add folders for every object. All the variables related to an object be in one folder."
+     In that case, you can add folders for every object. All the variables related to an object [will] be in one folder."
      
      .. code-block:: javascript
      
