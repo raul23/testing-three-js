@@ -305,8 +305,8 @@ Add multiple cubes in a scene
      
      As of 2023-02-27: dat.GUI's version is 0.7.9 (Latest on Feb 18, 2022)
 
-Special effects
-===============
+Effects
+=======
 Add fog to a scene
 ------------------
 .. raw:: html
