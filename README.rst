@@ -183,10 +183,8 @@ OrthographicCamera
 ------------------
 TODO
 
-Drawing geometric shapes
-========================
 Drawing lines
--------------
+=============
 .. raw:: html
 
   <p align="center">
@@ -200,6 +198,8 @@ Drawing lines
  - **Code:** `jsfiddle.net <https://jsfiddle.net/raul23/54qtakvj/30/>`_ (added comments from the tutorial)
  - Code from `Drawing lines (threejs.org) <https://threejs.org/docs/index.html#manual/en/introduction/Drawing-lines>`_
 
+Drawing geometric shapes
+========================
 Drawing cubes
 -------------
 Wireframe cube
